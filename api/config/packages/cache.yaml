@@ -1,0 +1,9 @@
+framework:
+    cache:
+        # Keeping this commented while I try some stuff with http caching
+        # app: cache.adapter.redis_tag_aware
+        # default_redis_provider: snc_redis.default
+        # pools:
+        #   deviations.cache:
+        #     adapter: cache.adapter.redis
+        #     provider: snc_redis.default

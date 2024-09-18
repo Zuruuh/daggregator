@@ -1,0 +1,10 @@
+/.env.local
+/.env.local.php
+/.env.*.local
+/public/bundles
+/var/
+/vendor/
+/phpstan.neon
+/.php-cs-fixer.php
+/phpunit.xml
+/coverage/
