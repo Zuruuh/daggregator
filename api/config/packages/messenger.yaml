@@ -1,0 +1,20 @@
+framework:
+  messenger:
+    # failure_transport: failed
+
+    transports:
+      async: "%env(MESSENGER_TRANSPORT)%"
+      # failed: "%env(MESSENGER_FAILED_TRANSPORT)%"
+      sync: "sync://"
+
+    routing:
+      '*': async
+
+when@dev: &messenger_dev
+   framework:
+       messenger:
+           transports:
+              async: 'sync://'
+              # failed: 'sync://'
+
+when@test: *messenger_dev

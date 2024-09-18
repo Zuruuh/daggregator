@@ -1,0 +1,12 @@
+{
+  "name": "daggregator",
+  "main": "index.ts",
+  "dependencies": {
+    "@pulumi/pulumi": "^3.0.0",
+    "@pulumi/aws": "^5.0.0",
+    "@pulumi/awsx": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "1.1.20"
+  }
+}

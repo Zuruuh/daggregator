@@ -1,0 +1,14 @@
+# -- vim: ft=yaml
+parameters:
+    level: 8
+    tmpDir: ./var/phpstan
+    treatPhpDocTypesAsCertain: false
+    paths:
+        - src
+        - config
+        - bin
+        - tests
+    scanDirectories:
+        - var/cache/dev/Symfony/Config
+    symfony:
+        containerXmlPath: var/cache/dev/App_KernelDevDebugContainer.xml
